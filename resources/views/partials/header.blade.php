@@ -5,7 +5,9 @@
                 <ol class="categories">
                         @foreach ($categories as $link )
                     <li>
+                        <a href="{{$link['href']}}">
                             {{$link['category']}}
+                        </a>
                     </li>
                         @endforeach
                 </ol>

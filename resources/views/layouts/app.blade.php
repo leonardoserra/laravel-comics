@@ -25,6 +25,12 @@
         @include('partials.banner_bonus')
 
     </main>
+    <footer>
+
+        @include('partials.footer')
+    </footer>
+        
+
    
 </body>
 

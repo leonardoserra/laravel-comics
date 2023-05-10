@@ -17,7 +17,9 @@ Route::get('/', function () {
     $data = [
         'categories' => config('header'),
         'comics' => config('comic_old'),
-        'items' => config('banner_bonus')
+        'items' => config('banner_bonus'),
+        'footer_categories' => config('footer'),
+
     ];
     // $categories = config('header');
     // dd($data['categories']);

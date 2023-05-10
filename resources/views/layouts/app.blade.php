@@ -22,6 +22,7 @@
     <main>
         @include('partials.jumbotron')
         @include('partials.card_section')
+        @include('partials.banner_bonus')
 
     </main>
    

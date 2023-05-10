@@ -3,7 +3,6 @@
             <h2>CURRENT SERIES</h2>
         </div>
         <div class="cards-container">
-            {{-- <SingleCard v-for="(comic, i) in comics" :key="i" :thumb="comic.thumb" :series="comic.series" /> --}}
             @foreach ($comics as $comic)
                 
                 <div class="card">

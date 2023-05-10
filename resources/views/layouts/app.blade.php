@@ -21,6 +21,7 @@
 
     <main>
         @include('partials.jumbotron')
+        @include('partials.card_section')
 
     </main>
    

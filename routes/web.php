@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $data = [
         'categories' => config('header'),
-        'comic' => config('comic_old')
+        'comics' => config('comic_old')
     ];
     // $categories = config('header');
     // dd($data['categories']);

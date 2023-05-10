@@ -6,7 +6,7 @@
 
 - Create poi una rotta per visualizzare la lista di tutti i fumetti recuperati da un file inserito nella cartella config e abbellite il tutto sfruttando Sass.  
 
->***Bonus***:
+- ***Bonus***:
 >Create più pagine istituzionali che condividono lo stesso layout
 
 

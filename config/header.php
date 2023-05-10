@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'categories'  => [
+    
         [
             'category' => 'CHARACTERS',
             'href' => '#'
@@ -42,7 +42,7 @@ return [
             'category' => 'SHOP',
             'href' => '#'
         ]
-    ]
+    
 ];
 ?>
             

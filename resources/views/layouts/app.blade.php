@@ -17,7 +17,12 @@
 
 <body>
     @include('partials.header')
-    @include('partials.jumbotron')
+
+
+    <main>
+        @include('partials.jumbotron')
+
+    </main>
    
 </body>
 

@@ -19,6 +19,7 @@ Route::get('/', function () {
         'comics' => config('comic_old'),
         'items' => config('banner_bonus'),
         'footer_categories' => config('footer'),
+        'icons' => config('banner_bottom'),
 
     ];
     // $categories = config('header');

@@ -238,6 +238,53 @@ body {
     .logo-bg {
         height: 390px;
     }
+}
+
+//banner-bottom
+
+.banner-bottom-container {
+    height: 101px;
+    background-color: variables.$secondary-color;
+    @include mixins.flex-around;
+
+    .wrapper {
+        width: 100%;
+        @include mixins.flex-around;
+
+        .socials {
+            @include mixins.flex-start;
+
+            .icon {
+                margin-left: 15px;
+            }
+        }
+
+
+        .sign-up {
+            background-color: transparent;
+            border: 3px solid variables.$tertiary-color;
+            color: variables.$primary-color;
+            height: 80%;
+            padding: 20px;
+
+            &:hover {
+                background-color: lighten(variables.$secondary-color, $amount: 10);
+                transition: background-color 0.5s ease-in-out;
+            }
+
+            &:active {
+                background-color: variables.$tertiary-color;
+                transition: background-color 0.5s ease-in-out;
+            }
+
+            cursor: pointer;
+        }
+
+        h2 {
+            color: variables.$tertiary-color;
+            font-size: 18px;
+        }
+    }
 
 
 }

@@ -28,6 +28,7 @@
     <footer>
 
         @include('partials.footer')
+        @include('partials.banner_bottom')
     </footer>
         
 

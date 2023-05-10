@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $data = 
+    $categories = config('header');
 
 
-    return view('home');
+    return view('home',$categories);
 })->name('home');

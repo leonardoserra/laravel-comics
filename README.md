@@ -1,6 +1,5 @@
 ***nome repo: laravel-comics***  
 
-
 - Create un nuovo progetto Laravel.  
 >Concentratevi sul layout: create un file di layout in cui inserire la struttura comune di tutte le pagine del sito web (tag head, tag body, ...) eventualmente includendo header e footer tramite due partials.  
 

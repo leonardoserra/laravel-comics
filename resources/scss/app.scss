@@ -122,3 +122,121 @@ body {
 
     }
 }
+
+//single card
+.card {
+
+    width: calc(100% / 6 - 10px);
+    height: calc(80vw / 6 - 10px);
+    margin: 5px;
+
+    .img-container {
+        height: 150px;
+        width: 150px;
+        margin-bottom: 5px;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+    }
+
+    .title {
+        // padding: 0 15px;
+        color: $primary-color;
+    }
+}
+
+//banner bonus
+.banner-bonus-container {
+    height: 120px;
+    background-color: $tertiary-color;
+    @include mixins.flex-center;
+
+    .card {
+        height: 100%;
+        @include mixins.flex-center;
+        margin: 0 35px;
+        color: $primary-color;
+
+
+        &:last-child img {
+            height: 20%;
+        }
+
+        img {
+            height: 30%;
+        }
+
+        a {
+            margin-left: 5px;
+            text-decoration: none;
+            color: $primary-color;
+
+            .title {
+                font-size: .7rem;
+                font-weight: 400;
+            }
+
+        }
+    }
+}
+
+//footer 
+
+.footer-container {
+    overflow-y: hidden;
+    height: 300px;
+    background-image: url(../assets/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @include mixins.flex-around;
+
+    .links-wrapper {
+        height: 100%;
+        margin-top: 45px;
+        width: 40%;
+
+        .footer-links {
+            @include mixins.flex-columns;
+            height: 100%;
+            margin: 0 20px;
+            padding: 30px;
+
+            .category {
+                margin: 0 20px;
+                margin-bottom: 20px;
+                color: variables.$primary-color;
+
+
+                li {
+                    list-style: none;
+
+                    a {
+                        font-size: 10px;
+                        color: lighten(variables.$secondary-color, $amount: 10);
+                        text-decoration: none;
+
+                        &:hover {
+                            color: lighten(variables.$secondary-color, $amount: 30);
+                            border-bottom: 1px solid lighten(variables.$tertiary-color, $amount: 10);
+                            transition: border-bottom 0.5s linear;
+                            transition: color .5s linear;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .logo-bg {
+        height: 390px;
+    }
+
+
+}
